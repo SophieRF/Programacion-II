@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e17d70cd-0eb9-49ed-9599-9e0329c3a8b5" name="Changes" comment="" />
+    <list default="true" id="e17d70cd-0eb9-49ed-9599-9e0329c3a8b5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../EjClases2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjClases2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjClases2/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjClases2/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjClases2/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjClases2/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
