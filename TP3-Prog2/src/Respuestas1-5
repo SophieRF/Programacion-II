@@ -1,0 +1,32 @@
+1. ¿Qué es una relación involutiva en java?
+ Es una relación en la cual una instancia de una clase puede estar relacionada con otra instancia de la
+ misma clase.
+
+2. De un ejemplo de relación involutiva.
+ Si tengo la clase Persona, con sus atributos (ej: nombre, edad), puedo crear además un atributo de tipo
+ Persona dentro de sí misma, como por ejemplo: private Persona colega, por lo tanto se podrá instanciar una
+ clase de tipo Persona, que en sí mimsa contenga un/a colega que sea también de tipo Persona.
+
+3. ¿Qué métodos comunes se encuentran en la interfaz Collection y qué funcionalidades
+proporcionan?
+ Collection permite crear List, set y Map, que permiten agrupar elementos de distintas maneras. Los métodos más
+comunes que utilizan son los de lectura, agregado y eliminación de elementos (contains(), add(), remove()), como
+así tambíen permite ver la cantidad de elementos de la colección(size()) y comprobar si está vacía (isEmpty()).
+ Luego exiten métodos que combinan dos colecciones:
+ addAll(Collection<?> c) Añade todos los elementos de la colección c.
+ removeAll(Collection<?> c): Elimina todos los elementos de la colección c.
+ containsAll(Collection<?> c): Comprueba si coinciden las colecciones.
+ retainAll(Collection<?> c): Elimina todos los elementos a no ser que estén en c.
+
+4. Explica el propósito de la interfaz Iterable en Java y cómo se utiliza.
+ La interfaz Iterable permite recorrer los elementos de una colección existente en una instancia de clase que
+la implementa, lo hace mediante el método Iterator() y permite generar iteraciones personalizables y específicas.
+
+5. ¿Qué ventajas ofrece el uso de la interfaz Iterable en comparación con simplemente iterar sobre
+una colección utilizando un bucle for estándar?
+ Hace más manejable, intuitivo y fácil el uso de iteradores sobre colecciones. Se puede genrar el algoritmo que se
+considere más adecuado al tipo de iteración que se necesite realizar, o elegir modos más sencillos e intuitivos,
+por ejemplo, cuando se recorren los elementos de una colección con un for-each, es más simpe y legible que el
+clásico bucle for, ya que se escribe especificando el nombre del elemento y la colección a recorrer:
+for (elemento : colección).
+
