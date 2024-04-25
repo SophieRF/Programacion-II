@@ -1,0 +1,36 @@
+1. ¿Qué mostrará por pantalla el siguiente código?
+public class EjemploExcepciones {
+ public static int devuelveNumero(int num) {
+ try {
+ if (num % 2 == 0) {
+ throw new Exception(“Lanzando excepción”);
+ }
+ return 1;
+ } catch (Exception ex) {
+ return 2;
+ } finally {
+ return 3;
+ }
+ }
+ public static void main(String[] args) {
+ System.out.println(devuelveNumero(1));
+ }
+}
+El código va a mostrar el número 3, independientemente del parámetro que se dé al método, ya que
+retorna 3 dentro de un finally, que es un bloque que siempre se ejecuta.
+
+2. ¿Cuál es el nombre en Java de la clase que define las excepciones, y de la que debe heredar
+cualquier clase que queramos usar para representar una excepción?
+Throwable
+
+3. ¿Cuál es el nombre en Java de la clase que representa las excepciones que se producen al invocar
+un método de un objeto cuyo valor es null?
+NullPointerException
+
+4. ¿Cuál es e l nombre en Java de la clase que representa las excepciones que se producen al obtener
+un comportamiento anómalo en la entrada/salida de información?
+IOException
+
+5. ¿Qué nos aporta el método printStackTrace() sobre una excepción en Java?
+ Nos permite entender de dónde surge la excepción, sirve para mostrar por consola la pila de
+ métodos que provocaron la excepción en el programa.
