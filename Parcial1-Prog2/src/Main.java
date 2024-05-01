@@ -30,6 +30,7 @@ public class Main {
         en1.agregarAtleta(a3);
 
         System.out.println("La segunda prueba del " + i1.getNombre() + " es "+ i1.getPruebas().get(1).getTitulo() + " y el 3er atleta que la realiza es "+ i1.getPruebas().get(1).getAtletas().get(2).getNombre());
+        System.out.println("El código de la 2da prueba es "+ i1.getPruebas().get(1).getCodigo());
         en1.verAlturaAtletas();
         en1.verPesoExtraAtletas();
     }
